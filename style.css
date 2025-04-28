@@ -1,0 +1,45 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: wheat;
+    width: 400px;
+}
+
+.topContainer {
+    display: flex;
+    background-color: darkblue;
+    color: white;
+    font-size: 20px;
+}
+
+.bottomContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    grid-column: 1 / -1;
+}
+
+.topContainer div {
+    padding-left: 40px;
+    margin: 5px;
+}
+
+.bottomContainer div {
+    display: flex;
+    background-color: white;
+}
+
+.bottomContainer div div {
+    background-color: white;
+    margin: 10px;
+}
+
+[class^="text1"] {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+[class^="text2"] {
+    font-weight: bold;
+    font-size: 16px;
+}

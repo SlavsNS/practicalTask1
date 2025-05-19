@@ -1,0 +1,21 @@
+.mainContainer {
+    display: grid;
+    gap: 10px;
+    background: #f3e1b1;
+}
+.titleWithBetsBlock {
+
+}
+.titleContainer {
+    background-color: darkblue;
+}
+.title {
+    color: white;
+    padding-left: 30px;
+}
+.betsContainer {
+    display: grid;
+}
+.oddContainer {
+
+}
